@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/Proyectos de Unity/FinalShaders
+F:/Github/FinalShaders/FinalShaders
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51719
-Successfully changed project path to: D:/Proyectos de Unity/FinalShaders
-D:/Proyectos de Unity/FinalShaders
+50209
+Successfully changed project path to: F:/Github/FinalShaders/FinalShaders
+F:/Github/FinalShaders/FinalShaders
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 34.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 34.94 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Proyectos de Unity/FinalShaders/Assets
+[Subsystems] Discovering subsystems at path F:/Github/FinalShaders/FinalShaders/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,18 +35,18 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56416
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56484
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001735 seconds.
+Registered in 0.002261 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 33.75 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 34.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.449 seconds
+- Completed reload, in  0.450 seconds
 Domain Reload Profiling:
-	ReloadAssembly (449ms)
+	ReloadAssembly (451ms)
 		BeginReloadAssembly (44ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
@@ -54,18 +54,18 @@ Domain Reload Profiling:
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		EndReloadAssembly (349ms)
-			LoadAssemblies (43ms)
+			LoadAssemblies (42ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (114ms)
+			SetupTypeCache (117ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (132ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (131ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (34ms)
-				BeforeProcessingInitializeOnLoad (10ms)
-				ProcessInitializeOnLoadAttributes (63ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (61ms)
 				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -73,35 +73,35 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003332 seconds.
+Registered in 0.002732 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.848 seconds
+- Completed reload, in  0.806 seconds
 Domain Reload Profiling:
-	ReloadAssembly (849ms)
-		BeginReloadAssembly (115ms)
+	ReloadAssembly (806ms)
+		BeginReloadAssembly (114ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (685ms)
-			LoadAssemblies (70ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (643ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (222ms)
+			SetupTypeCache (224ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (276ms)
+			SetupLoadedEditorAssemblies (231ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (186ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
+				ProcessInitializeOnLoadAttributes (143ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -110,14 +110,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2146 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.8 MB.
+System memory in use before: 132.9 MB.
 System memory in use after: 132.9 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2594.
-Total: 2.490200 ms (FindLiveObjects: 0.188300 ms CreateObjectMapping: 0.083800 ms MarkObjects: 2.140000 ms  DeleteObjects: 0.077300 ms)
+Total: 2.249400 ms (FindLiveObjects: 0.202600 ms CreateObjectMapping: 0.097600 ms MarkObjects: 1.877800 ms  DeleteObjects: 0.070500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,17 +131,49 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/SkyScene.unity
-  artifactKey: Guid(704b2cc54ddd41f4390bc635f263f526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SkyScene.unity using Guid(704b2cc54ddd41f4390bc635f263f526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd0455bc5d78fc71f36e629ee5875d9') in 0.013031 seconds 
-  Import took 0.015515 seconds .
+  path: Assets/Shaders/FogShader/FogPlane.shader
+  artifactKey: Guid(3db1f8c53941b1e40b28c41447c08996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FogShader/FogPlane.shader using Guid(3db1f8c53941b1e40b28c41447c08996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41da5b8422cb89ef784f0bcc672a810b') in 0.031892 seconds 
+  Import took 0.034530 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 437.055004 seconds.
-  path: Assets/Shaders/SkyShader/SkyShader.shader
-  artifactKey: Guid(e4e613c4acf94bb409af530fbbc00573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/SkyShader/SkyShader.shader using Guid(e4e613c4acf94bb409af530fbbc00573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b67f4e9e174e70dbfc2e9887bb16c8') in 0.018494 seconds 
-  Import took 0.021552 seconds .
+  Time since last request: 53.681203 seconds.
+  path: Assets/Shaders/FireShader/FireShader.shader
+  artifactKey: Guid(ba5cd162581cc8a48af6fd57b9ccf228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FireShader/FireShader.shader using Guid(ba5cd162581cc8a48af6fd57b9ccf228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '709b2d718bb14692a8e051979b2e8340') in 0.001108 seconds 
+  Import took 0.003638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.348338 seconds.
+  path: Assets/Shaders/SkyShader
+  artifactKey: Guid(c6b3161a78a65e34da9d1c3d646380d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/SkyShader using Guid(c6b3161a78a65e34da9d1c3d646380d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feaf2eafd512549ad5df18660c33f237') in 0.001129 seconds 
+  Import took 0.003751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 191.432367 seconds.
+  path: Assets/Shaders/FogShader/FogPlane.shader
+  artifactKey: Guid(3db1f8c53941b1e40b28c41447c08996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FogShader/FogPlane.shader using Guid(3db1f8c53941b1e40b28c41447c08996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995897ca43c63fdf587d9238270edf12') in 0.001262 seconds 
+  Import took 0.003952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.747040 seconds.
+  path: Assets/Shaders/FogShader/FogPlane.shader
+  artifactKey: Guid(3db1f8c53941b1e40b28c41447c08996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FogShader/FogPlane.shader using Guid(3db1f8c53941b1e40b28c41447c08996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5aa804ac109b3d3e0104bed52ea2d8c') in 0.001177 seconds 
+  Import took 0.003595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 134.858986 seconds.
+  path: Assets/Shaders/FogShader/FogPlane.shader
+  artifactKey: Guid(3db1f8c53941b1e40b28c41447c08996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FogShader/FogPlane.shader using Guid(3db1f8c53941b1e40b28c41447c08996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5846e9a6fc18313b650cc3736a66fd27') in 0.001171 seconds 
+  Import took 0.004002 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

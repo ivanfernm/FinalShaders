@@ -20,8 +20,15 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - _Intensity: 0.03
+    - _Intensity: 0.09
+    - _TransAmbient: 0.2
+    - _TransDirect: 1
+    - _TransNormalDistortion: 0.1
+    - _TransScattering: 2
+    - _TransShadow: 0.9
+    - _Translucency: 1
     - __dirty: 0
     m_Colors:
+    - _DepthColor: {r: 0, g: 0, b: 0, a: 0}
     - _FogColor: {r: 0.10951406, g: 0.21698111, b: 0.13030356, a: 0}
   m_BuildTextureStacks: []
