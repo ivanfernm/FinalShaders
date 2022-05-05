@@ -19,8 +19,12 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _TextureSample0:
-        m_Texture: {fileID: 2800000, guid: f15fbce2845d0d0439cc2f82251a093a, type: 3}
+    - _DistortioMap:
+        m_Texture: {fileID: 2800000, guid: 013820e25522f1c468195ca20b6713d4, type: 3}
+        m_Scale: {x: 0.8, y: 0.8}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: c64f4c0f6001aec46aacd30cd96c1226, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -30,5 +34,9 @@ Material:
     m_Floats:
     - _Cutoff: 0.5
     - __dirty: 0
-    m_Colors: []
+    m_Colors:
+    - _BW_GradientOffset: {r: 0, g: -0.47, b: 0, a: 0}
+    - _EmissiveCol: {r: 1, g: 1, b: 1, a: 0}
+    - _PannerSpeed: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _Tint: {r: 0, g: 0.67674804, b: 1, a: 0}
   m_BuildTextureStacks: []
